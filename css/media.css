@@ -32,8 +32,8 @@
          font-size:3rem;
      }
      .fifth .fifth-info a{
-        padding:1.5rem 5.5rem;
-        font-size:1.5rem;
+        padding:2rem 5.5rem;
+        font-size:2rem;
      }
      .footer .footer-content{
          grid-template-columns: 1fr;
@@ -111,6 +111,10 @@
     .fourth-content .fourth-info h2{
         font-size: 3rem;
     }
+    .fifth .fifth-info a{
+        padding:1.5rem 5.5rem;
+        font-size:1.5rem;
+     }
     .footer-info-two .footer-input input{
         padding:1.5rem 7rem 1.5rem 1rem;
     }

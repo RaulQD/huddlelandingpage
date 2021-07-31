@@ -144,7 +144,8 @@ body{
     width:100%;
     position: absolute;
     left: 0;
-    bottom:99%;
+    bottom:100%;
+    transform:scaleY(1.1);
 }
 .wave-bottom img{
     width:100%;
@@ -269,11 +270,12 @@ body{
 /*----FOOTER----*/
 .footer{
     padding-top:9rem;
-    margin-top:35rem;
+    margin-top:30rem;
     background-color: hsl(192, 100%, 9%);
     width:100%;
     position:relative;
 }
+
 .footer-content{
     display:grid;
     grid-template-columns: repeat(2, 1fr);
@@ -326,10 +328,6 @@ body{
     line-height: 1.5;
     margin-bottom: 4rem;
 }
-/* .footer-form{
-    display:flex;
-    column-gap: 2rem;
-} */
 .footer-input input{
     border:none;
     padding:1.5rem 17rem 1.5rem 1rem;
