@@ -1,0 +1,153 @@
+@media (max-width : 992px ) {
+    .second-content .second-wrapped{
+         flex-direction: column-reverse;    
+     }
+     .second-wrapped .second-info{
+         text-align: center;
+     }
+     .second-wrapped .second-img img{
+         margin-bottom: 10rem;
+     }
+     .third-content{
+         flex-direction: column;
+     }
+     .third-content .third-info{
+         text-align: center;
+         margin:0;
+     }
+     .third-img img{
+         margin-bottom: 10rem;
+     }
+     .fourth-wrapped{
+         flex-direction: column-reverse;
+     }
+     .fourth-wrapped .fourth-info{
+         text-align: center;
+         margin:0;
+     }
+     .fourth-img img{
+         margin-bottom: 10rem;
+     }
+     .fifth .fifth-info h2{
+         font-size:3rem;
+     }
+     .fifth .fifth-info a{
+        padding:1.5rem 5.5rem;
+        font-size:1.5rem;
+     }
+     .footer .footer-content{
+         grid-template-columns: 1fr;
+     }
+     
+}
+
+@media (max-width : 768px ) {
+    .home .home-content p{
+        width:100%;
+    }
+    .first .first-content{
+        grid-template-columns: 1fr; 
+    }
+    .first-content .first-one{
+        margin-bottom:5rem;
+    }
+    .first-content .first-two{
+        margin-top: 5rem;
+    }
+}
+
+@media (max-width :  600px ) {
+    .home .home-content h1{
+        font-size: 3.5rem;
+    }
+    .first-content .first-one .first-img{
+        margin-right: 16rem;
+    }
+    .first-content .first-two .first-img{
+        margin-right: 18rem;
+    }
+    .first-content .first-one h1,
+    .first-content .first-two h1{
+        font-size:8rem;
+    }
+    .first-content .first-one p,
+    .first-content .first-two p{
+        font-size: 1.8rem;
+    }
+    .third-content .third-info h2{
+        font-size:3rem;
+    }
+    .footer-content .footer-info p{
+        font-size: 1.5rem;
+        width:100%;
+    }
+    .footer-content .footer-info-two p{
+        font-size: 1.5rem;
+        width:100%;
+    }
+    
+}
+@media (max-width : 480px ) {
+    .nav .nav-items img{
+        width:150px;
+    }
+    .nav .nav-items button{
+        padding:1rem 2.5rem;
+        font-size: 1.2rem;
+    }
+    .home .home-content h1{
+        font-size: 2.5rem;
+    }
+    .home .home-content p{
+        font-size:1.5rem;
+    }
+    .home .home-content a{
+        font-size: 1.8rem;
+        padding:2.5rem 7rem;
+    }
+    .second-wrapped .second-info h2{
+        font-size:3rem;
+    }
+    .fourth-content .fourth-info h2{
+        font-size: 3rem;
+    }
+    .footer-info-two .footer-input input{
+        padding:1.5rem 7rem 1.5rem 1rem;
+    }
+    .footer-form .btn-cta{
+        padding: 1.5rem 4rem;
+    }
+    
+}
+
+@media (max-width :  375px ) {
+    .nav .nav-items img{
+        width:120px;
+    }
+    .home .home-content p{
+        font-size: 1.5rem;
+    }
+    .home .home-content a{
+        font-size: 1.5rem;
+        padding:1.5rem 4rem;
+    }
+    .first-content .first-one h1,
+    .first-content .first-two h1{
+        font-size:7rem;
+    }
+    .second-wrapped .second-info h2{
+        font-size:2.5rem;
+    }
+    .second-wrapped .second-info p{
+        font-size: 1.5rem;
+    }
+    .third-content .third-info h2{
+        font-size:2.5rem;
+    }
+    .third-content .third-info p{
+        font-size: 1.5rem;
+    }
+    .fourth-content .fourth-info p{
+        font-size: 1.5rem;
+    }
+}
